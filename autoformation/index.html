@@ -12,6 +12,16 @@
     <form name = "myform" action = "">
         Enter name: <input type = "text" name = "customer"/>
         <input type = "button" value = "Set Cookie" onclick = "WriteCookie();"/>
+
+        <p>Click the following button, you will be redirected to home page.</p>
+      
+      <form>
+         <input type = "button" value = "Redirect Me" onclick = "Redirect();" />
+      </form>
+
+      <!-- void -->
+      <p>Click the following, This won't react at all...</p>
+      <a href = "javascript:void(document.body.style.backgroundColor='yellow') ">Click me!</a> 
 </body>
 
 </html>

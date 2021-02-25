@@ -168,7 +168,7 @@ switch (grade) {
    default:  document.write("Unknown grade<br />")
 }
 document.write("Exiting switch block");
-
+//cookie
 function WriteCookie() {
     if( document.myform.customer.value == "" ) {
        alert("Enter some value!");
@@ -178,3 +178,30 @@ function WriteCookie() {
     document.cookie = "name=" + cookievalue;
     document.write ("Setting Cookies : " + "name=" + cookievalue );
  }
+
+ //redirection
+ function Redirect() {
+    window.location = "https://www.tutorialspoint.com";
+ }
+
+ var informatique = confirm("Aimes-tu l'informatique en général ? ");
+if (informatique== true){
+   var programmation = confirm("Et plus particulièrement la programmation ?");
+   if (programmation == true) {
+      var jascri = confirm("La programmation en JS aussi, je suppose ?");
+         if (jascri == true) {
+            var poursuite = confirm("Tu restes donc avec nous pour la suite du tutoriel ?");
+            if (poursuite == true) {
+               alert("Nous sommes heureux, nous continuerons donc notre travail.");
+            } else {
+               alert("Bon vent, nos chemins se quittent ici.");
+            }
+         } else {
+            alert("Dommage, JS te permettrait d'animer tes pages Web.");
+         }
+   } else {
+      alert("Il n'y a pas que FaceBook sur un ordinateur !");
+   }
+} else {
+   alert("Quel dommage !");
+}
