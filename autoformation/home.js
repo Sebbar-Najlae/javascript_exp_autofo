@@ -3,7 +3,7 @@ console.log('hello');
 console.log('hello');
 
 //alerte en haut de la page 
-//alert('yooo');
+alert('yooo');
 
 
 //variables
@@ -168,3 +168,13 @@ switch (grade) {
    default:  document.write("Unknown grade<br />")
 }
 document.write("Exiting switch block");
+
+function WriteCookie() {
+    if( document.myform.customer.value == "" ) {
+       alert("Enter some value!");
+       return;
+    }
+    cookievalue = escape(document.myform.customer.value) + ";";
+    document.cookie = "name=" + cookievalue;
+    document.write ("Setting Cookies : " + "name=" + cookievalue );
+ }
