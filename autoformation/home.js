@@ -212,3 +212,7 @@ console.log(fruit.toLowerCase(fruit));
 var today= new Date();
 var year = today.getFullYear();
 console.log(year);
+
+//Math
+var p= Math.pow(6,2);
+console.log(p)
