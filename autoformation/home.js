@@ -114,28 +114,7 @@ while (x < 10)
 }
 
 document.write("Exiting the loop!<br /> ");
-// Data types 
 
-let yourAge = 18; //number
-let youName = 'Bob'; //string
-let name = { first: 'Jane', last: 'Doe' }; //object
-let truth = false; //boolean
-let groceries = ['apple', 'banana', 'orange']; //array tableau
-let random; //undefined
-let nothing = null; //value null
-
-
-// Strings in Javascript (common methods)
-let fruit = 'banana';
-let moreFruits = 'banana\napple'; //new ligne
-console.log(moreFruits);
-
-console.log(fruit.length); //longeur
-console.log(fruit.indexOf('n')); //repetition
-console.log(fruit.slice(2, 5));
-console.log(fruit.replace('ban', '123'));
-console.log(fruit.toUpperCase(fruit));
-console.log(fruit.toLowerCase(fruit));
 
 //condition
 var age = 15;
@@ -183,7 +162,7 @@ function WriteCookie() {
  function Redirect() {
     window.location = "https://www.tutorialspoint.com";
  }
-
+// dialog
  var informatique = confirm("Aimes-tu l'informatique en général ? ");
 if (informatique== true){
    var programmation = confirm("Et plus particulièrement la programmation ?");
@@ -205,3 +184,31 @@ if (informatique== true){
 } else {
    alert("Quel dommage !");
 }
+
+// Data types 
+
+let yourAge = 18; //number
+let youName = 'Bob'; //string
+let name = { first: 'Jane', last: 'Doe' }; //object
+let truth = false; //boolean
+let groceries = ['apple', 'banana', 'orange']; //array tableau
+let random; //undefined
+let nothing = null; //value null
+
+
+// Strings in Javascript (common methods)
+let fruit = 'banana';
+let moreFruits = 'banana\napple'; //new ligne
+console.log(moreFruits);
+
+console.log(fruit.length); //longeur
+console.log(fruit.indexOf('n')); //repetition
+console.log(fruit.slice(2, 5));
+console.log(fruit.replace('ban', '123'));
+console.log(fruit.toUpperCase(fruit));
+console.log(fruit.toLowerCase(fruit));
+
+//date
+var today= new Date();
+var year = today.getFullYear();
+console.log(year);
