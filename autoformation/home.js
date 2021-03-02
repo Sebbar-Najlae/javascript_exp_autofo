@@ -3,7 +3,7 @@ console.log('hello');
 console.log('hello');
 
 //alerte en haut de la page 
-alert('yooo');
+// alert('yooo');
 
 
 //variables
@@ -163,27 +163,27 @@ function WriteCookie() {
     window.location = "https://www.tutorialspoint.com";
  }
 // dialog
- var informatique = confirm("Aimes-tu l'informatique en général ? ");
-if (informatique== true){
-   var programmation = confirm("Et plus particulièrement la programmation ?");
-   if (programmation == true) {
-      var jascri = confirm("La programmation en JS aussi, je suppose ?");
-         if (jascri == true) {
-            var poursuite = confirm("Tu restes donc avec nous pour la suite du tutoriel ?");
-            if (poursuite == true) {
-               alert("Nous sommes heureux, nous continuerons donc notre travail.");
-            } else {
-               alert("Bon vent, nos chemins se quittent ici.");
-            }
-         } else {
-            alert("Dommage, JS te permettrait d'animer tes pages Web.");
-         }
-   } else {
-      alert("Il n'y a pas que FaceBook sur un ordinateur !");
-   }
-} else {
-   alert("Quel dommage !");
-}
+//  var informatique = confirm("Aimes-tu l'informatique en général ? ");
+// if (informatique== true){
+//    var programmation = confirm("Et plus particulièrement la programmation ?");
+//    if (programmation == true) {
+//       var jascri = confirm("La programmation en JS aussi, je suppose ?");
+//          if (jascri == true) {
+//             var poursuite = confirm("Tu restes donc avec nous pour la suite du tutoriel ?");
+//             if (poursuite == true) {
+//                alert("Nous sommes heureux, nous continuerons donc notre travail.");
+//             } else {
+//                alert("Bon vent, nos chemins se quittent ici.");
+//             }
+//          } else {
+//             alert("Dommage, JS te permettrait d'animer tes pages Web.");
+//          }
+//    } else {
+//       alert("Il n'y a pas que FaceBook sur un ordinateur !");
+//    }
+// } else {
+//    alert("Quel dommage !");
+// }
 
 // Data types 
 
@@ -215,4 +215,4 @@ console.log(year);
 
 //Math
 var p= Math.pow(6,2);
-console.log(p)
+console.log(p);
