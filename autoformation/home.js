@@ -216,3 +216,6 @@ console.log(year);
 //Math
 var p= Math.pow(6,2);
 console.log(p);
+
+console.log(typeof(null));
+console.log(null == 0);
